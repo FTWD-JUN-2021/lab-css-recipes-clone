@@ -8,11 +8,17 @@
 header {
     color: white;
     background: url("../images/apple-pie.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
+    transition: all 3s;
     height: 560px;
+}
+
+header:hover {
+    color: blue;
+    background-size: 200%;
 }
 
 body {
@@ -44,3 +50,4 @@ main {
 .recipe-images>img {
     width: 450px;
 }
+
